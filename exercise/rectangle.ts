@@ -1,1 +1,0 @@
-// 1. Write code to find are of rectangle

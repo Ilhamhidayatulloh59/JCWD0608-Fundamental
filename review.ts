@@ -1,62 +1,39 @@
-// console.log(0.1 + 0.2 == 0.3);
+// const arr = [
+//   [1, 2, 3],
+//   ["a", "b", "c"],
+//   [{ name: "andi", age: 20 }]
+// ];
 
-// console.log((0.1 + 0.2).toFixed(1));
-// console.log((0.4 + 0.2).toFixed(1));
+// console.log(arr[2][0].name)
 
-// let x = 5;
+// const obj: any = [
+//   () => [
+//     {
+//       arr: [
+//         [1, 2, 3],
+//         ["a", "b", "c"],
+//       ],
+//     },
+//   ],
+//   [8, 9, 10],
+// ];
 
-// while (false) {
-//   x = 10;
-// }
+// console.log(obj[0]()[0].arr[1][1])
 
-// do {
-//   x = 10;
-// } while (false);
-
-// console.log(x);
-
-// console.log(x);
-
-// var x = 10;
-
-// console.log(sum(10, 5));
-// console.log(sum2(10, 5));
-
-// hoisting
-// function sum(a: number, b: number) {
-//   return a + b;
-// }
-
-// const sum2 = function (a: number, b: number) {
-//   return a + b;
-// };
-
-// const person = {
-//   name: "Andi",
-//   greet() {
-//     return "Hallo " + this.name;
+// const arr: any = [
+//   {
+//     greet() {
+//       return [1, 2, 3];
+//     },
 //   },
-// };
+// ];
 
-// console.log("".length);
+// falsy = 0, "", false, null, undefined, NaN
 
-// var a = 10;
-// let b = 11;
+// const arr: number[] = [];
 
-// {
-//   var a = 20;
-//   let b = 12;
-// }
+// console.log(Boolean(arr));
 
-// console.log(a, b);
+// const str = false;
 
-// let c = 10;
-
-// sum(10, 2);
-
-// function sum(a: number, b: number) {
-//   c = 11;
-//   return a + b;
-// }
-
-// console.log(c);
+// console.log(!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!str);
